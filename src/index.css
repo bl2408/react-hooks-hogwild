@@ -150,3 +150,23 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+/* MY CSS */
+.dropdown{
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+.dropdown[expanded="false"]{
+  max-height: 0;
+}
+.dropdown[expanded="true"]{
+  max-height: 200px;
+}
+.filter-bar{
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.filter-bar > * {
+  padding: 5px;
+}
